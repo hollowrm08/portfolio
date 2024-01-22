@@ -1,0 +1,19 @@
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .home-container-side-menu {
+    display: flex;
+    flex-grow: 1;
+    background-color: rgb(137, 137, 212);
+    padding: 0 2%;
+  }
+
+  .home-container-carousel-list {
+    display: flex;
+    flex-grow: 3;
+    background-color: rgb(79, 104, 170);
+    padding: 0 2%;
+  }
+}

@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build-git":"ng build -c production --base-href 'https://rodrigo-mello-hw08.github.io/portfolio/'",
+    "build-git":"ng build -c production --base-href \"https://rodrigo-mello-hw08.github.io/portfolio/\"",
     "publish-git": "npx angular-cli-ghpages --dir=dist/portfolio"
   },
   "private": true,

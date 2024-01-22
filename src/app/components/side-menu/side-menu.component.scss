@@ -1,0 +1,24 @@
+@import '../../../vars.scss';
+
+.side-menu-container {
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-around;
+}
+
+.side-menu-nav {
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: space-between;
+  // width: 50%;
+  list-style:none;
+
+  li {
+    cursor: pointer;
+  }
+
+  li:hover {
+    color: $secondary-font-color;
+    text-decoration: underline;
+  }
+}
