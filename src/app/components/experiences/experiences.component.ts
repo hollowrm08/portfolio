@@ -9,12 +9,17 @@ import { Experience } from 'src/app/model/experience.model';
 export class ExperienceComponent implements OnInit {
 
   experiences: Experience[] = [
-    {title: 'SpringSQL', description: 'A long time ago'},
-    {title: 'Docker', description: 'A little time ago'},
-    {title: 'Ansible', description: 'A short time'},
-    {title: 'JS', description: 'Still working on it'},
-    {title: 'Typescript', description: 'Doing my best'},
-    {title: 'CSS', description: 'One of my weakness'},
+    {
+      title: 'Desenvolvedor na CWI Software',
+      description: 'Atuação no cliente BV: Microsserviços, mensageria, framework Springboot, processamento em lote Javabatch',
+      start: new Date(2021, 5, 1)
+    },
+    {
+      title: 'Estágiario na CWI Software',
+      description: 'Treinamento interno: Springboot + React. E atuação no cliente BV: Microsserviços springboot',
+      start: new Date(2020, 9, 8),
+      finish: new Date(2021, 5, 1)
+    },
   ];
 
   constructor() { }

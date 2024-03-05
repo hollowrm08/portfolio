@@ -4,6 +4,7 @@ import { SideMenuComponent } from './side-menu/side-menu.component';
 import { CarouselListComponent } from './carousel-list/carousel-list.component';
 import { ExperienceComponent } from './experiences/experiences.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { CertificatesComponent } from './certificates/certificates.component';
 
 
 
@@ -13,6 +14,7 @@ import { ProjectsComponent } from './projects/projects.component';
     CarouselListComponent,
     ExperienceComponent,
     ProjectsComponent,
+    CertificatesComponent,
   ],
   exports: [
     SideMenuComponent,

@@ -1,0 +1,12 @@
+<section id="certificates" class="certificates-list-container">
+  <h2>Certificados</h2>
+  <div *ngFor="let certificate of certificates" class="certificates-container" >
+    <div class="certificate-header">
+      <p class="certificate-header-title">{{certificate.title}}</p>
+      <p class="certificate-header-institution">{{certificate.institution}}</p>
+    </div>
+    <div class="certificate-body">
+      <p>{{certificate.description}}</p>
+    </div>
+  </div>
+</section>
